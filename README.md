@@ -18,7 +18,7 @@ Simple custom webpack starter template.
 
 ### JS
 
-* babel-loader (with babel-preset-env)
+* babel-loader (with preset-env)
 
 ### Sass
 
