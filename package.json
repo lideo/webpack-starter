@@ -10,7 +10,7 @@
     "watch": "NODE_ENV=development webpack --watch",
     "dev:start": "NODE_ENV=development webpack-dev-server"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "babel-core": "^6.26.3",
