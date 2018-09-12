@@ -37,6 +37,17 @@ module.exports = {
                         }
                     },
                     {
+                        loader: 'postcss-loader', // Run post css actions
+                        options: {
+                            sourceMap: true,
+                            plugins: function () { // post css plugins, can be exported to postcss.config.js
+                                return [
+                                    require('autoprefixer')
+                                ];
+                            }
+                        }
+                    },
+                    {
                         loader: "sass-loader",
                         options: {
                             sourceMap: true
