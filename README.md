@@ -25,4 +25,5 @@ Simple custom webpack starter template.
 ### Sass
 
 * css-loader
+* postcss-loader (with autoprefixer)
 * sass-loader
