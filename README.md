@@ -9,6 +9,8 @@ Simple custom webpack starter template.
 * [webpack-cleanup-plugin](https://github.com/gpbl/webpack-cleanup-plugin) for cleaning up the extraneous files from the webpack's output path.
 * [optimize-css-assets-webpack-plugin](https://github.com/NMFR/optimize-css-assets-webpack-plugin) for optimizing \ minimizing CSS assets.
 * [uglifyjs-webpack-plugin](https://github.com/webpack-contrib/uglifyjs-webpack-plugin) for minifying JavaScript. 
+* [webpack-notifier
+](https://github.com/Turbo87/webpack-notifier#readme) for displaying build status system notifications to the user.
 
 ## Loaders
 

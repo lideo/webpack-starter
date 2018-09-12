@@ -6,6 +6,7 @@ const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
+const WebpackNotifierPlugin = require('webpack-notifier');
 
 module.exports = {
     mode: devMode ? 'development' : 'production',
@@ -63,7 +64,8 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: "css/[name].css",
-        })
+        }),
+        new WebpackNotifierPlugin({alwaysNotify: true}),
     ],
     optimization: {
         minimizer: [
