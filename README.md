@@ -11,6 +11,10 @@ Simple custom webpack starter template.
 * [uglifyjs-webpack-plugin](https://github.com/webpack-contrib/uglifyjs-webpack-plugin) for minifying JavaScript. 
 * [webpack-notifier
 ](https://github.com/Turbo87/webpack-notifier#readme) for displaying build status system notifications to the user.
+* [browser-sync-webpack-plugin
+](https://github.com/Va1/browser-sync-webpack-plugin) for browser testing (will run only in watch mode).
+       
+
 
 ## Loaders
 

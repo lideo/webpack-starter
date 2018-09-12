@@ -7,6 +7,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 const WebpackNotifierPlugin = require('webpack-notifier');
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
     mode: devMode ? 'development' : 'production',
@@ -77,6 +78,14 @@ module.exports = {
             filename: "css/[name].css",
         }),
         new WebpackNotifierPlugin({alwaysNotify: true}),
+        // BrowserSync will start only when you run Webpack in watch mode
+        new BrowserSyncPlugin({
+            host: 'localhost',
+            port: 3000,
+            server: { baseDir: ['dist'] }
+            // OR
+            //proxy: '<your-local-host-here>',
+        })
     ],
     optimization: {
         minimizer: [
