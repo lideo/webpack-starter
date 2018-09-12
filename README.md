@@ -2,7 +2,7 @@
 
 Simple custom webpack starter template.
 
-## Plugins
+## Plugins & packages
 
 * [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) for creating HTML files to serve your bundles.
 * [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) for extracting CSS into separate files. Works with webpack 4.
