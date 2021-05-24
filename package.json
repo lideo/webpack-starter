@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.6.1",
-    "browserslist": "^4.6.6"
+    "browserslist": "^4.16.5"
   },
   "browserslist": [
     "> 1%",
